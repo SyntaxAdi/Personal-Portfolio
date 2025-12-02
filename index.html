@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaditya Pawar - Personal Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Aaditya Pawar" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Aaditya Pawar">Aaditya Pawar</h1>
+          <p class="title">Full-Stack Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:aadityapawar00001@gmail.com" class="contact-link">aadityapawar00001@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+919962419256" class="contact-link">+91 9962419256</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-06-15">June 15, 2004</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Chennai, Tamil Nadu, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.instagram.com/lol_aaditya_lol" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://t.me/itzaditya_xd" class="social-link">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/aadityapawar" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aaditya-pawar2004" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I build systems that work — fast, reliable, and scalable. I specialize in automation, AI integrations, and
+            backend engineering, with a focus on solving real problems instead of decorating them. My work ranges from
+            chatbots and workflow automations to API-driven tools, scrapers, and multimodal applications.
+          </p>
+          <p>
+            I’m obsessed with efficiency. If something can be automated, optimized, or rebuilt smarter, I’ll do it. I
+            design solutions that can handle real-world load, not just look good on a landing page. Whether it's
+            orchestrating complex pipelines, integrating ML models, or engineering clean backend architecture, I care
+            about performance, clarity, and long-term maintainability.
+            My goal is simple: build tools that save time, reduce friction, and actually move the needle — for users,
+            teams, or businesses. No noise, no gimmicks — just impactful engineering.
+          </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-robot.svg" alt="Automation & Bots icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation & Bots</h4>
+                <p class="service-item-text">
+                  End-to-end development of scalable automation pipelines and chatbots across Telegram, Discord and
+                  custom APIs
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ai.svg" alt="AI & Machine Learning icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+                <p class="service-item-text">
+                  Integration and deployment of AI systems — text, vision, voice — with optimized inference and
+                  real-world use cases.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-backend.svg" alt="Backend Engineering icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Engineering</h4>
+                <p class="service-item-text">
+                  Robust backend systems using Python, Node, APIs, authentication, databases, and real-time services.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web.svg" alt="camera icon" width="50">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Tools & Utilities</h4>
+                <p class="service-item-text">
+                  Custom web utilities, scrapers, handlers, dashboards, and API-driven tools built for reliability and
+                  speed.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Random Quotes</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Roy Mustang" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Roy Mustang</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nothing’s perfect, the world’s not perfect, but it’s there for us, trying the best it can. That’s
+                    what makes it so damn beautiful.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Misato Katsuragi" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Misato Katsuragi</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Sometimes you need a little wishful thinking to keep on living.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Subaru Natsuki" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Subaru Natsuki</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I guess, as long as I have life, all I can do is fight with all my might.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Lelouch Lamperouge" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lelouch Lamperouge</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    You will never be able to love anybody else until you love yourself.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Violet Evergarden" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Violet Evergarden</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dead people receive more flowers than living ones because regret is stronger than gratitude.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-6.png" alt="Akeno Himejima" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Akeno Himejima</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Even the phoenix that rises from the ashes can’t recover instantly from mental damage.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-7.png" alt="Vegeta" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Vegeta</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Push through the pain. Giving up hurts more.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-8.png" alt="Ryuunosuke Akasaka" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ryuunosuke Akasaka</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    love is simply an electrical bug in the human neural circuit.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-9.png" alt="Koro-Sensei" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Koro-Sensei</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The difference between a novice and a master is that a master has failed more times than a novice
+                    had
+                    tried.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-9.png" alt="Koro-Sensei" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title> Koro-Sensei</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  The difference between a novice and a master is that a master has failed more times than a novice had
+                  tried.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SRM Institute Of Science And Technology</h4>
+              <span> 2025 - Present</span>
+              <p class="timeline-text">
+                I am presently pursuing my Master of Computer Applications (MCA) degree at this institution.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Kumararani Meena Muthiah College of Arts and Science</h4>
+              <span>2022 - 2025</span>
+              <p class="timeline-text">
+                I completed my three-year Bachelor of Computer Applications (BCA) degree at this institution.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Chettinad Vidyashram</h4>
+              <span>2010 - 2022</span>
+              <p class="timeline-text">
+                I completed my secondary and higher secondary education at this institution.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Internships</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Besant Technologies - Software Developer & Tester</h4>
+              <span>Oct 2024 – Dec 2024</span>
+              <p class="timeline-text">
+                Worked on Python-based development and testing tasks, implementing SQL queries for data handling,
+                designing structured tables, and optimizing database performance. Contributed to real project modules
+                while applying clean coding principles and debugging practices.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Izeon Innovative Pvt Ltd - Software Developer</h4>
+              <span>May 2024 - Jun 2024</span>
+              <p class="timeline-text">
+                Built interactive web applications using Streamlit, integrating Python-based logic, custom UI
+                components, and deployment-ready workflows. Worked on creating clean, user-focused interfaces and
+                implementing modular, maintainable code.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <div class="skill-category">
+            <h4 class="h4 skill-category-title">Programming Languages</h4>
+            <ul class="skills-list-icons">
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-python"></ion-icon>
+                </div>
+                <span class="skill-name">Python</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-javascript"></ion-icon>
+                </div>
+                <span class="skill-name">JavaScript</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="cafe-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Java</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="code-working-outline"></ion-icon>
+                </div>
+                <span class="skill-name">C++</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Dart</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Go</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h4 class="h4 skill-category-title">Frameworks & Libraries</h4>
+            <ul class="skills-list-icons">
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="flash-outline"></ion-icon>
+                </div>
+                <span class="skill-name">FastAPI</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="flask-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Flask</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-nodejs"></ion-icon>
+                </div>
+                <span class="skill-name">Node.js</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Telethon</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="send-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Pyrogram</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Selenium</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Playwright</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-react"></ion-icon>
+                </div>
+                <span class="skill-name">React</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Bootstrap</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="cloud-download-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Requests</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+                <span class="skill-name">BeautifulSoup</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="happy-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Transformers</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="images-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Diffusers</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="camera-outline"></ion-icon>
+                </div>
+                <span class="skill-name">OpenCV</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="image-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Pillow</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="options-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Gradio</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <span class="skill-name">SQLAlchemy</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="grid-outline"></ion-icon>
+                </div>
+                <span class="skill-name">pandas</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Pymongo</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="cloud-outline"></ion-icon>
+                </div>
+                <span class="skill-name">CloudScrapper</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="videocam-outline"></ion-icon>
+                </div>
+                <span class="skill-name">yt-dlp</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="code-outline"></ion-icon>
+                </div>
+                <span class="skill-name">lxml</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+                <span class="skill-name">urllib3</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="swap-horizontal-outline"></ion-icon>
+                </div>
+                <span class="skill-name">aiohttp</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="document-text-outline"></ion-icon>
+                </div>
+                <span class="skill-name">aiofiles</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h4 class="h4 skill-category-title">DevOps & Tools</h4>
+            <ul class="skills-list-icons">
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="git-branch-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Git</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+                <span class="skill-name">GitHub</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+                <span class="skill-name">VS Code</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="terminal-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Linux Terminal</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="key-outline"></ion-icon>
+                </div>
+                <span class="skill-name">SSH</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-docker"></ion-icon>
+                </div>
+                <span class="skill-name">Docker</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-chrome"></ion-icon>
+                </div>
+                <span class="skill-name">DevTools</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-google"></ion-icon>
+                </div>
+                <span class="skill-name">Google Colab</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="infinite-outline"></ion-icon>
+                </div>
+                <span class="skill-name">CI/CD</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Oracle SQL</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="videocam-outline"></ion-icon>
+                </div>
+                <span class="skill-name">FFmpeg</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="navigate-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Cursor</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Windsurf</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="planet-outline"></ion-icon>
+                </div>
+                <span class="skill-name">AntiGravity</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="layers-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Wrap</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="cloud-circle-outline"></ion-icon>
+                </div>
+                <span class="skill-name">VPS</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+                <span class="skill-name">RDP</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h4 class="h4 skill-category-title">Databases & Cloud</h4>
+            <ul class="skills-list-icons">
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <span class="skill-name">MongoDB</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="file-tray-full-outline"></ion-icon>
+                </div>
+                <span class="skill-name">SQLite</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-amazon"></ion-icon>
+                </div>
+                <span class="skill-name">AWS</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-microsoft"></ion-icon>
+                </div>
+                <span class="skill-name">Azure</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="cloud-upload-outline"></ion-icon>
+                </div>
+                <span class="skill-name">MEGA</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-google"></ion-icon>
+                </div>
+                <span class="skill-name">Google Drive</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="layers-outline"></ion-icon>
+                </div>
+                <span class="skill-name">RedisLab</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="logo-firebase"></ion-icon>
+                </div>
+                <span class="skill-name">Firebase</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="save-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Local DB</span>
+              </li>
+              <li class="skill-item-icon">
+                <div class="skill-icon-box">
+                  <ion-icon name="flash-outline"></ion-icon>
+                </div>
+                <span class="skill-name">Supabase</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Highlighting the projects that reflect my engineering depth and
+                problem-solving approach.</button>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="development">
+              <div class="content-card project-card">
+                <figure class="project-banner">
+                  <img src="./assets/images/project-1.jpg" alt="Multi Media Downloader" loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <div class="project-header">
+                    <h3 class="project-title">Multi Media Downloader</h3>
+                    <a href="https://github.com/SyntaxAdi/Media-Downloader" target="_blank" class="project-link">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </div>
+                  <div class="project-meta">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <time>Jun 2025 - Present</time>
+                  </div>
+                  <p class="project-desc">
+                    Multi Media Downloader is a powerful, modular Telegram bot designed to download media from a vast
+                    array of websites. Built with Python and Telethon, it leverages an asynchronous, event-driven
+                    architecture to handle multiple user requests efficiently. It features a robust module system,
+                    allowing for easy extension to support new sites and features, and includes administrative tools for
+                    statistics, system information, and remote updates.
+                  </p>
+                  <ul class="project-tags-list">
+                    <li class="project-tag">aiohttp</li>
+                    <li class="project-tag">requests</li>
+                    <li class="project-tag">httpx</li>
+                    <li class="project-tag">pydantic</li>
+                    <li class="project-tag">numpy</li>
+                    <li class="project-tag">pillow</li>
+                    <li class="project-tag">beautifulsoup4</li>
+                    <li class="project-tag">Telethon</li>
+                    <li class="project-tag">yt-dlp</li>
+                    <li class="project-tag">gallery-dl</li>
+                    <li class="project-tag">cloudscraper</li>
+                    <li class="project-tag">pymongo</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="development">
+              <div class="content-card project-card">
+                <figure class="project-banner">
+                  <img src="./assets/images/project-2.png" alt="Udemy Course Auto-Enroller" loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <div class="project-header">
+                    <h3 class="project-title">Udemy Course Auto-Enroller</h3>
+                    <a href="https://github.com/SyntaxAdi/Udemy-Auto-Enroller" target="_blank" class="project-link">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </div>
+                  <div class="project-meta">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <time>Jun 12 - Present</time>
+                  </div>
+                  <p class="project-desc">
+                    Udemy-AutoEnroll is an intelligent, automation-focused Telegram bot designed to enroll users into
+                    free and discounted Udemy courses with zero manual effort. Built with Python and Telethon, it uses
+                    an asynchronous scraping and parsing pipeline to collect fresh course links from multiple aggregator
+                    sites in real time. The bot automatically validates course availability, filters out expired deals,
+                    and streamlines enrollment through a fast, event-driven workflow. It also includes extensible
+                    modules for adding new sources, along with admin-focused tools for monitoring usage, updating
+                    sources, and managing user access.
+                  </p>
+                  <ul class="project-tags-list">
+                    <li class="project-tag">cloudscraper</li>
+                    <li class="project-tag">Telethon</li>
+                    <li class="project-tag">aiohttp</li>
+                    <li class="project-tag">requests</li>
+                    <li class="project-tag">urllib3</li>
+                    <li class="project-tag">beautifulsoup4</li>
+                    <li class="project-tag">lxml</li>
+                    <li class="project-tag">motor</li>
+                    <li class="project-tag">python-dotenv</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-socials">
+          <h3 class="h3 form-title" style="text-align: center;">&lt; Let's Work Together /&gt;</h3>
+          <p class="contact-text" style="text-align: center; margin-bottom: 30px; color: var(--light-gray);">Got a
+            project? Drop me a line or hit me up on socials</p>
+          <ul class="social-grid">
+            <li class="social-grid-item">
+              <a href="mailto:aadityapawar00001@gmail.com" class="social-grid-link">
+                <div class="card-icon-box" style="background: linear-gradient(135deg, #ff6b6b, #ff8e53);">
+                  <ion-icon name="mail"></ion-icon>
+                </div>
+                <p class="social-grid-title">Email</p>
+              </a>
+            </li>
+            <li class="social-grid-item">
+              <a href="https://www.linkedin.com/in/aaditya-pawar2004" class="social-grid-link">
+                <div class="card-icon-box" style="background: linear-gradient(135deg, #0077b5, #00a0dc);">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <p class="social-grid-title">LinkedIn</p>
+              </a>
+            </li>
+            <li class="social-grid-item">
+              <a href="https://github.com/aadityapawar" class="social-grid-link">
+                <div class="card-icon-box" style="background: linear-gradient(135deg, #333, #555);">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+                <p class="social-grid-title">GitHub</p>
+              </a>
+            </li>
+            <li class="social-grid-item">
+              <a href="https://t.me/itzaditya_xd" class="social-grid-link">
+                <div class="card-icon-box" style="background: linear-gradient(135deg, #0088cc, #32aaff);">
+                  <i class="fa-brands fa-telegram" style="font-size: 24px; color: white;"></i>
+                </div>
+                <p class="social-grid-title">Telegram</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
