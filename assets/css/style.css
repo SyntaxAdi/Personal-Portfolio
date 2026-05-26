@@ -602,6 +602,25 @@ main {
   scroll-snap-align: center;
 }
 
+.testimonials-item .content-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-item .content-card::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  background: url("../images/icon-quote.svg") no-repeat center;
+  background-size: contain;
+  opacity: 0.05;
+  filter: invert(1);
+  pointer-events: none;
+}
+
 .testimonials-avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
@@ -620,6 +639,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  font-style: italic;
   display: -webkit-box;
   line-clamp: 4;
   -webkit-line-clamp: 4;
@@ -747,6 +767,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  font-style: italic;
 }
 
 
@@ -1467,6 +1488,7 @@ textarea.form-input::-webkit-resizer {
   .testimonials-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
+    font-style: italic;
   }
 
 
